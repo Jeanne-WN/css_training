@@ -1,0 +1,36 @@
+header {
+    background-color: blue;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+.left {
+    float: left;
+    width: 100px;
+    background-color: red;
+    margin-right: 10px;
+}
+
+.right {
+    float: left;
+    width: 150px;
+    background-color: green;
+    margin-left: 10px;
+}
+
+.center {
+	float: left;
+    background-color: #B0B030;
+    width: 600px;
+}
+
+footer {
+    clear: both;
+    background-color: yellow;
+    height: 30px;
+    line-height: 30px;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: white; 
+}

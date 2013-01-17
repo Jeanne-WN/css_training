@@ -1,0 +1,39 @@
+.bookshelf{
+	height: 800px;
+	width: 1020px;
+	background-image: url(images/bookshelf.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	left: 100px;
+	top: 30px;
+	position: relative;
+}
+
+.books{
+	position: relative;
+	top: 45px;
+	width: 1020px;
+	height: 600px;
+}
+
+.book{
+	height: 192px;
+	width: 320px;
+	text-align: center;
+	float: left;
+	line-height: 192px;	
+}
+
+img{
+	vertical-align: middle;
+}
+
+.introduction{
+	margin-top: 80px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 30px;
+	font-weight: 900;
+	text-shadow: 1px 1px 3px white;
+	color: #D09520;
+}

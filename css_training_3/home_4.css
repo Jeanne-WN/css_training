@@ -1,0 +1,48 @@
+header {
+    background-color: blue;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+.container {
+    padding-left: 110px;
+    padding-right: 160px;
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+    width: 100px;
+    background-color: red;
+    margin-left:-100%;
+    right: 110px;
+    position: relative;
+    padding-bottom: 100000px;
+    margin-bottom: -100000px;
+}
+
+.right {
+    float: right;
+    width: 150px;
+    background-color: green;
+    margin-right: -160px;
+    padding-bottom: 100000px;
+    margin-bottom: -100000px;
+}
+
+.center {
+    float: left;
+    background-color: #B0B030;
+    width: 100%;
+}
+
+footer {
+    clear: both;
+    background-color: yellow;
+    height: 30px;
+    line-height: 30px;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: white; 
+}
