@@ -45,8 +45,16 @@ ul{
 
 .cta {
 	position: absolute;
-	right: 10px;
-	bottom: 5px;
+	height: 100%;
+	width: 20%;
+	right: 0;
+	bottom: 0;
+	display: block;
+	background: url(cta_new.png) no-repeat center center;
+}
+.cta img{
+	position: relative;
+	bottom: 50%;
 }
 .cta span{
 	display: none;

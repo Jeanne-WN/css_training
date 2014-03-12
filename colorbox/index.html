@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ColorBox test</title>
+	<script type="text/javascript"  src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.colorbox-min.js"></script>
+	<link rel="stylesheet" href="colorbox.css">
+	<script type="text/javascript">
+	$(function(){
+		$(".link").colorbox({ href: 'http://i4.au.reastatic.net/home-ideas/310x190/d01b02494f8c6b0b3f22b30e2acef66ef70e80c5c43bb35430dfb448c4cb5e2f/outdoor-living.jpg' });
+		$("#test-link").colorbox({width:"60%", height:"300px", inline:true, href:"#test-content"});
+	});
+		
+	</script>
+</head>
+<body>
+	<a class="link" href="#">click here</a>
+	<img class="image" rel="image" src="http://i4.au.reastatic.net/home-ideas/310x190/d01b02494f8c6b0b3f22b30e2acef66ef70e80c5c43bb35430dfb448c4cb5e2f/outdoor-living.jpg" style="display: none;"/>
+
+	<a href="#" id="test-link">Click Me</a>
+
+<div style="display: none;">
+       <div id="test-content">
+        <h1>Test Heading</h1>
+        <p>
+            This is just a test content that does not make any sense. This is just a test content that does not make any sense. This is just a test content that does not make any sense. This is just a test content that does not make any sense. This is just a test content that does not make any sense.
+        </p>
+    </div>
+</div>
+</body>
+</html>

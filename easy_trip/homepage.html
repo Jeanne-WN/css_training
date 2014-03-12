@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/homepage.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <img class="bgd" src="img/1.jpg" >
+    <div id="search-content">
+      <div class="content">
+        <div class="logo">
+          <img src="img/111.png" height=50/>
+          <strong>Easy-Trip</strong>
+        </div>
+        
+        <form class="form-search search">
+          <div class="from form-line" >
+            <label>&nbsp&nbsp From:</label>
+            <input type="date" />
+          </div>
+          <div class="to form-line">
+            <label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspTo:   </label>
+            <input type="date" />
+          </div>
+          <div class="where form-line">
+            <label>Where:</label>
+            <input type="text" placeholder="Roma" />
+          </div>
+          <button type="submit" class="search-button">Trova</button>
+        </form>
+
+      </div>  
+    </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        $('.date-picker').datepicker();
+      })
+    </script>
+  </body>
+</html>

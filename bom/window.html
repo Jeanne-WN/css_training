@@ -1,0 +1,32 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>BOM Session - window</title>		
+	</head>
+	<body>
+		<button onclick="window.open(); ">open a new window</button>
+		<br /><br />
+		<button onclick="window.resizeTo(300, 200); ">resize window to (600, 600)</button>
+		<br /><br />
+		<button onclick="window.resizeBy(100, 100); ">resize window by (100, 100)</button>
+		<br /><br />
+		<button onclick="window.resizeBy(-100, 100); ">resize window by (-100, 100)</button>
+		<br /><br />
+		<button onclick="window.moveTo(100, 50); ">move window to (100, 50)</button>
+		<br /><br />
+		<button onclick="window.moveTo(1, 1); ">move back</button>
+		<br /><br />
+		<button onclick="window.moveBy(100, 100); ">move by (100, 100)</button>
+		<br /><br />
+		<button onclick="window.scrollTo(300, 50); ">scroll to (300, 50)</button>
+		<br /><br />
+		<button onclick="timeId = setTimeout(function(){alert('hello');}, 5000); ">set time out</button>
+		<br /><br />
+		<button onclick="clearTimeout(timeId); ">clear time out</button>
+		<br /><br />
+		<button onclick="intervalId = setInterval(function(){console.log('interval...');}, 500); ">set interval</button>
+		<br /><br />
+		<button onclick="clearInterval(intervalId); ">clear interval</button>
+		
+	</body>
+</html>

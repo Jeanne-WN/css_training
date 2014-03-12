@@ -1,4 +1,4 @@
-/*.square {
+.square {
 	margin-top: 100px;
 	margin-left: 100px;
 
@@ -11,7 +11,7 @@
 	width: 100px;
 }
 
-.triangle {
+/*.triangle {
 	margin-top: -160px;
 	margin-left: 350px;
 
@@ -20,9 +20,9 @@
 	border-color: transparent transparent black transparent;
 
 	width: 0px;
-}
+}*/
 
-.trapezoid {
+/*.trapezoid {
 	margin-top: -160px;
 	margin-left: 550px;
 
@@ -82,9 +82,9 @@ div.triangle-with-border:after {
 	border-color: transparent transparent white transparent;
 
 	width: 0px;	
-}*/
+}
 
-div{
+/*div{
 	float: left;
 	position: relative;
 	top: 100px;
@@ -117,4 +117,27 @@ div{
 	
 	border-width: 90px;
 	border-color: transparent transparent white transparent;
+}*/
+
+
+.triangle, .trapezoid, .triangle-with-border {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid black;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+
+.trapezoid {
+    width: 60px;
+}
+
+.triangle-with-border:after {
+    border-bottom: 90px solid white;
+    content: " ";
+}
+
+div {
+    display: inline-block;
+    margin-right: 20px;
 }
